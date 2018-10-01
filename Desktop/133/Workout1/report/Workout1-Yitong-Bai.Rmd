@@ -13,4 +13,5 @@ sum(is.na(x$effective_field_goal_perc))
 sum(is.na(x$points2_perc))
 sum(is.na(x$points3_perc))
 sum(is.na(x$points1_perc))
+
 ```
