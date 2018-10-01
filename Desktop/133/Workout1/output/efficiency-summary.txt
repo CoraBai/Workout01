@@ -1,2 +1,54 @@
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
   0.000   9.692  15.527  17.587  23.550  61.790 
+numeric(0)
+numeric(0)
+numeric(0)
+numeric(0)
+numeric(0)
+'data.frame':	1728 obs. of  16 variables:
+ $ Price        : int  132500 181115 109000 155000 86060 120000 153000 170000 90000 122900 ...
+ $ Lot.Size     : num  0.09 0.92 0.19 0.41 0.11 0.68 0.4 1.21 0.83 1.94 ...
+ $ Waterfront   : int  0 0 0 0 0 0 0 0 0 0 ...
+ $ Age          : int  42 0 133 13 0 31 33 23 36 4 ...
+ $ Land.Value   : int  50000 22300 7300 18700 15000 14000 23300 14600 22200 21200 ...
+ $ New.Construct: int  0 0 0 0 1 0 0 0 0 0 ...
+ $ Central.Air  : int  0 0 0 0 1 0 0 0 0 0 ...
+ $ Fuel.Type    : int  3 2 2 2 2 2 4 4 3 2 ...
+ $ Heat.Type    : int  4 3 3 2 2 2 3 2 4 2 ...
+ $ Sewer.Type   : int  2 2 3 2 3 2 2 2 2 1 ...
+ $ Living.Area  : int  906 1953 1944 1944 840 1152 2752 1662 1632 1416 ...
+ $ Pct.College  : int  35 51 51 51 51 22 51 35 51 44 ...
+ $ Bedrooms     : int  2 3 4 3 2 4 4 4 3 3 ...
+ $ Fireplaces   : int  1 0 1 1 0 1 1 1 0 0 ...
+ $ Bathrooms    : num  1 2.5 1 1.5 1 1 1.5 1.5 1.5 1.5 ...
+ $ Rooms        : int  5 6 8 5 3 8 8 9 8 6 ...
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   5000  145000  189900  211967  259000  775000 
+[1] 4
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    616    1300    1634    1755    2138    5228 
+[1] 6309573
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    616    1302    1636    1756    2141    5228 
+[1] 6309573
+2-BR  3BR  4BR 5+BR 
+ 352  821  487   64 
+[1] "Summary of BR is categorized with respect to level names and counts"
+[1] "The price per square foot increases with respect to both price, and the price for houses with more than one fireplace is generally more expensive than those with no fireplace.The correlation between price per square feet and price is really large. There are indeed some outliers, but there could be the problem with total square foot of the house"
+[1] "The price per square foot increases with respect to both price, and the price for houses with more than one fireplace is generally more expensive than those with no fireplace.The correlation between price per square feet and price is really large. There are indeed some outliers, but there could be the problem with total square foot of the house"
+mapping: yintercept = ~yintercept 
+geom_hline: na.rm = FALSE
+stat_identity: na.rm = FALSE
+position_identity 
+mapping: yintercept = ~yintercept 
+geom_hline: na.rm = FALSE
+stat_identity: na.rm = FALSE
+position_identity 
+mapping: yintercept = ~yintercept 
+geom_hline: na.rm = FALSE
+stat_identity: na.rm = FALSE
+position_identity 
+mapping: yintercept = ~yintercept 
+geom_hline: na.rm = FALSE
+stat_identity: na.rm = FALSE
+position_identity 
