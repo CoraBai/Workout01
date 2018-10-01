@@ -1,0 +1,1 @@
+Workout1 is an assignment aimed to test students' understanding about command line and github classroom. Also, this will test your understanding on using the packages of "dplyr" and "ggplot2".
