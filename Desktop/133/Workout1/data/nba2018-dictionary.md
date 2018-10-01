@@ -20,7 +20,7 @@ The data is to give a comprehensive overview on information of NBA2018 players a
 
 
 | Names | Descriptions | Units of Measurement | Missing Values | 
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | player | first and last names of player | N/A | 0 |
 | number | number on jersey | N/A | 0 |
 | team | 3-letter team abbreviation | N/A | 0 |
