@@ -24,7 +24,7 @@ missed_ft = dat$points1_atts - dat$points1
 rebounds = dat$off_rebounds + dat$def_rebounds
 efficiency = (dat$points + rebounds + dat$assists + dat$steals + dat$blocks + dat$blocks - missed_fg - missed_ft - dat$turnovers)/ dat$games 
 dat = mutate(dat,missed_fg, missed_ft, rebounds, efficiency)
-sink("/Users/Cora/Desktop/133/Workout1/output/efficiency-summary.txt",append = TRUE)
+sink("Desktop/133/Workout1/output/efficiency-summary.txt",append = TRUE)
 summary(efficiency)
 
 ##Create data frame teams
@@ -32,11 +32,9 @@ aggregate(dat$experience, by = list(team = dat$team), FUN = sum)
 new_df = aggregate(.~team, dat, sum)
 teams = new_df[ , c("team", "experience", "salary", "points3", "points2", "points", "off_rebounds", "def_rebounds",
                   "assists", "steals", "blocks", "turnovers", "fouls", "efficiency")]
-sink("/Users/Cora/Desktop/133/Workout1/data/teams-summary.txt")
+sink("Desktop/133/Workout1/data/teams-summary.txt")
 summary(teams)
-write.csv(teams, file = "/Users/Cora/Desktop/133/Workout1//data/nba2018-teams.csv")
-
-
+write.csv(teams, file = "Desktop/133/Workout1//data/nba2018-teams.csv")
 
 
 
