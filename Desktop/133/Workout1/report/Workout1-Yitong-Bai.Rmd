@@ -1,0 +1,16 @@
+---
+title: "Workout1-Yitong-Bai"
+author: "Cora Bai"
+date: "9/30/2018"
+output: github_document
+---
+```{r}
+x = read.csv("/Users/Cora/Desktop/133/Workout1/data/nba2018.csv")
+
+sum(x$college == "")
+sum(is.na(x$field_goals_perc))
+sum(is.na(x$effective_field_goal_perc))
+sum(is.na(x$points2_perc))
+sum(is.na(x$points3_perc))
+sum(is.na(x$points1_perc))
+```
