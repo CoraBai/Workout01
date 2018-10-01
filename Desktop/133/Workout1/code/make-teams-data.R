@@ -34,7 +34,7 @@ teams = new_df[ , c("team", "experience", "salary", "points3", "points2", "point
                   "assists", "steals", "blocks", "turnovers", "fouls", "efficiency")]
 sink("/Users/Cora/Desktop/133/Workout1/data/teams-summary.txt")
 summary(teams)
-write.csv(teams, file = "/Users/Cora/Desktop/133/Workout1/data/nba2018-teams.csv")
+write.csv(teams, file = "/Users/Cora/Desktop/133/Workout1//data/nba2018-teams.csv")
 
 
 
